@@ -1,0 +1,52 @@
+.Edit{
+    margin: 5%;
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: 0px 0px 10px 8px rgb(150, 150, 150);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Amaranth', sans-serif;
+    letter-spacing: 3px;
+}
+.Edit img{
+    border-radius: 0 20px 20px 0;
+}
+.landTXT{
+    width: 50%;
+    padding: 3%;
+}
+.twojoin img{
+   width: 50%;
+   height: auto;
+}
+.newjoin img{
+    width: 50% ;
+    border-radius: 20px 0 0 20px;
+}
+.firstHeader{
+    background-image: url(../../IMG/newBG.jpg) !important;
+
+}
+
+
+
+@media only screen and (max-width:700px){
+   .Edit{
+    margin: 5%;
+    margin-top: 10%;
+   }
+    .Edit img{
+    width: 100%;
+    height: 450px;
+    border-radius:  0 0 20px 20px;
+   }
+   .newjoin img{
+    border-radius: 20px 20px 0 0;
+   }
+
+   .landTXT{
+    width: 100%;
+   }
+}

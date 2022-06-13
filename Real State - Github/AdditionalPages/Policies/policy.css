@@ -1,0 +1,26 @@
+.Policy{
+    margin-top: 30px;
+}
+.Policy h1 , h2{
+    font-family: 'Amaranth', sans-serif;
+}
+.polLett{
+    border-radius: 25px;
+    box-shadow: 0px 3px 10px 10px rgb(174, 174, 174);
+}
+.polLett p{
+    margin: 2% 10px ;
+}
+.polLett a{
+    margin: 0;
+}
+.polLett li{
+    margin: 5px;
+}
+@media only screen and (max-width:500px) {
+    .polLett{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+
+    }
+}

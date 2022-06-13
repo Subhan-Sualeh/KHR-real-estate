@@ -1,0 +1,429 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(25, 24, 24);
+}
+li{
+    list-style: none;
+}
+.firstHeader{
+    background-image: url(../IMG/2272210.jpg);
+    background-position: center center;
+    width: 100% ;
+    padding: 10rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.firstHeader h1{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 3rem;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(25, 24, 24);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+    transition: all ease 0.5s;
+}
+nav li :hover{
+    text-decoration:2px underline white;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo{
+    margin: 0 3rem;
+}
+.logo a{
+    text-shadow: 3px 0px 3px gray;
+    font-family: 'Amaranth', sans-serif;
+}
+.logo h5{
+    font-family: 'Amaranth', sans-serif;
+}
+.logo p{
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+}
+i{
+    color: white;
+}
+.fa-bars{
+    display: none;
+}
+.fisCategories{
+    margin: 50px 0px;
+}
+.fisCateHead{
+    margin: 20px 0;
+}
+.categories h1{
+    font-size: 2.5rem;
+    font-family: 'Amaranth', sans-serif;
+
+}
+.categories h2{
+    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+    color: rgb(204, 204, 204);
+}
+.mainCategories ul{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.mainCategories li{
+    margin: 20px 15px;
+    background: rgb(36, 34, 34);
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 3px rgb(56, 56, 56);   
+    font-size: 1.5rem;
+}
+.mainCategories li i{
+    display: block;
+    font-size: 8rem;
+    margin: 10px;
+}
+.mainCategories li:hover{
+    background: rgb(225, 225, 225);
+}
+.mainCategories a:hover{
+    color: rgb(42, 42, 42);
+}
+.cardAreas{
+    margin: 5% 0;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background: rgb(36, 34, 34);
+    margin: 10px;
+    width: 16rem;
+    box-shadow: 0px 3px 10px 6px rgb(56, 56, 56);
+
+}
+.cards img{
+    width: 100%;
+    height: 15rem;
+}
+.cards h1{
+    padding: 25px;
+    font-size: 1.6rem;
+}
+.cardTxt{
+    width: 90%;
+}
+.lastMain{
+    margin: 5% 0;
+    background-image: url(../IMG/lastMain.jpg);
+    background-position: center 3px ;
+    width: 100% ;
+    padding: 10rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;    
+
+}
+.lastMain h1{
+    color:  black;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Amaranth', sans-serif;
+}
+.lastMain h4{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+}
+.aboutUS{
+    margin: 10% 5%;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about1img{
+    width: 35%;
+}
+.about1img img{
+    width: 100%;
+    height: 50rem;
+}
+.aboutTXT{
+    width: 55%;
+    margin: 0 3%;
+}
+.aboutTXT h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(204, 204, 204);
+}
+.aboutTXT h1{
+    margin-top: 5%;
+    font-size: 3rem;
+    font-family: 'Amaranth', sans-serif;
+}
+.aboutTXT p{
+    font-size: 1.1rem;
+    color: rgb(200, 200, 200);
+}
+.aboutTXT h4{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.aboutTXT h5{
+    font-size: 0.9rem;
+    color: rgb(200, 200, 200);
+    margin-bottom: 0.6rem;
+}
+
+.about2img{
+    margin-top:10% ;
+    width: 100%;
+}
+.about2img img{
+    width: 100%;
+}
+.imgs{
+ display: inline-flex;
+ margin-bottom: 0;
+ /* flex-wrap: wra  p; */
+}
+.imgs img{
+    margin: 0;
+    width: 16.66%;
+    height: 250px;
+}
+.lastIMGS{
+    margin: 0;
+}
+.footerCol{
+    background-color: rgb(230, 230, 230);
+    padding: 4% 2%;
+    display: flex;
+    /* flex-wrap:wrap ; */
+}
+.secondLinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.secondLinks li{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.secondLinks a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+.secondLinks i{
+    color: green;
+    font-size: 1.6rem;
+}
+.secondLinks li :hover{
+    text-decoration: underline 2px black;
+
+}
+.footerCol div{
+    margin: 0 20px;
+}
+/* .footerCol a{
+    color: black;
+} */
+.firstLOGO h5{
+    color: black;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.firstLOGO p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 750px) {
+    nav ul{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: rgb(25, 24, 24);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s ;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+    .mainCategories ul{
+     display: block;
+     flex-wrap: nowrap;
+    
+    }
+    .mainCategories li{
+        display: block;
+        width: 90%;
+        margin: 30px 0px;
+        margin-left: 5px;
+    }
+    .cards{
+        width: 13rem;
+        margin: 20px;
+    }
+    .cards img{
+        height: 11rem;
+    }
+    .lastMain{
+        background-position: center 6rem;
+    }
+    .logo{
+       margin-left: 45%;
+    }
+    .cardAreas{
+        width: 100%;
+    }
+    .fa-bars{
+        font-size: 1.3rem;
+    }
+    .about1img img{
+        height: 35rem;
+    }
+    .aboutTXT h1{
+        font-size: 2rem;
+    }
+    .aboutTXT p{
+        font-size: 0.9rem;
+    }
+    .aboutTXT h4{
+        font-size: 2.2rem;
+    }
+    
+}
+@media only screen and (max-width : 500px) {
+  .cards{
+    width: 10rem;
+  }
+  .cards img{
+    height: 8rem;
+  }
+  .about1img{
+    display: none;
+  }
+  .imgs{
+    margin: 6% 0;
+    display: block;
+  }
+  .imgs img{
+    width: 100%;
+  }
+  .disnone{
+    display: none;
+  }
+  .aboutTXT{
+    width: 95%;
+  }
+  .mainCategories ul{
+    padding-left: 13px;
+  }
+  .para br{
+    display: none;
+  }
+  .footerCol{
+    flex-wrap: wrap;
+  }
+  .footerCol div{
+    margin: 0;
+  }
+  .secondLinks{
+    margin-top: 20px;
+  }
+  .para{
+    margin-bottom: 10% !important;
+ }
+
+
+}
+@media only screen and (max-width : 400px) {
+ .cards{
+    width: 8rem;
+ }
+ .cards h1{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 15px;
+ }
+ .cards img{
+    height: 9rem;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
